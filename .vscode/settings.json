@@ -1,0 +1,10 @@
+{
+  "editor.fontLigatures": false,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "code-runner.defaultLanguage": "\"javascript\"",
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  }
+}

@@ -1,0 +1,73 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+  background-color: rgb(223, 209, 250);
+}
+
+h1 {
+  background-color: blueviolet;
+  text-align: center;
+  position: fixed;
+  height: 70px;
+  width: 100%;
+  font-size: 2.5rem;
+  padding: 15px;
+  top: 0;
+  color: white;
+}
+h1::after {
+  content: 👩🏻👧🏼👵🏽👩🏾‍🦰👨🏿‍🦱;
+}
+h1::before {
+  content: 👩🏻‍🦳👱🏼‍♀️👸🏽👳🏾‍♀️;
+}
+.titulo {
+  font-size: 1.5rem;
+  margin-top: 80px;
+  margin-left: 15px;
+  color: darksalmon;
+}
+p {
+  font-size: 18px;
+  margin-top: 10px;
+  margin-left: 15px;
+  margin-right: 30px;
+  text-align: justify;
+}
+.subtitulo {
+  font-size: 1.5rem;
+  margin-left: 15px;
+  margin-top: 10px;
+  color: goldenrod;
+}
+.imagenes img {
+  width: auto;
+  height: 300px;
+  margin-top: 15px;
+  margin-left: 30px;
+}
+#quien {
+  text-align: justify;
+  margin-right: 130px;
+}
+#frase {
+  margin-left: 240px;
+  margin-right: 280px;
+  font-family: cursive;
+  color: darkcyan;
+}
+#who {
+  text-align: justify;
+  margin-right: 130px;
+}
+#sayed {
+  margin-left: 240px;
+  margin-right: 280px;
+  margin-bottom: 50px;
+  font-family: cursive;
+  color: darkcyan;
+}
