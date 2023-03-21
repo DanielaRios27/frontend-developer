@@ -1,0 +1,33 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+header {
+  background-color: #fff159;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  box-shadow: 1px 4px 10px 1px rgba(128, 128, 128, 0.3);
+}
+.logo {
+  height: 30px;
+}
+.nav-list {
+  display: flex;
+  list-style: none;
+  gap: 10px;
+}
+.nav-list li {
+  border-bottom: 0px solid transparent;
+  transition: 0.5s;
+}
+.nav-list li:hover {
+  color: azure;
+  border-bottom: 2px solid azure;
+  cursor: pointer;
+  margin: 1px 0px;
+}
