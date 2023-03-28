@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  width: 600px;
+  height: 400px;
+  border-radius: 20px;
+  display: flex;
+  overflow: hidden;
+  box-shadow: 10px 10px 20px 1px rgba(51, 51, 84, 0.222);
+}
+
+.result-container {
+  border-radius: 20px;
+  background: linear-gradient(
+    180deg,
+    rgba(111, 0, 255, 1) 0%,
+    rgba(0, 52, 237, 1) 100%
+  );
+  width: 50%;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  color: whitesmoke;
+  text-align: center;
+}
+
+.result-titlle {
+  color: rgb(231, 225, 236);
+  font-weight: 500px;
+  font-size: 18px;
+}
+.result-score {
+  background: linear-gradient(180deg, rgb(85, 1, 195) 0%, rgb(5, 55, 237) 100%);
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 150px;
+}
+.number {
+  font-size: 50px;
+  font-weight: 700;
+  color: rgb(240, 240, 240);
+}
+.hundred {
+  color: rgba(245, 245, 245, 0.635);
+}
+.title-message {
+  color: rgb(240, 240, 240);
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.summary-container {
+  border-radius: 20px;
+  background-color: whitesmoke;
+  width: 50%;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.summary-title {
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: midnightblue;
+}
+.items-list{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.items {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 7px;
+  padding: 10px;
+  font-size: 13px;
+  font-weight: 700;
+}
+.items-red {
+  background-color: rgba(255, 0, 0, 0.09);
+  color: #f55;
+}
+.items-left {
+  display: flex;
+  gap: 4px;
+}
+.items-right {
+  color: midnightblue;
+}
+.score {
+  color: rgba(128, 128, 128, 0.464);
+}
+.items-yellow {
+  background-color: #ffb01e18;
+  color: #ffb21e;
+}
+.items-green {
+  background-color: #00bb8f0c;
+  color: #00bb8f;
+}
+.items-purple {
+  background-color: #1125d617;
+  color: #1125d6;
+}
+.button {
+  background-color: midnightblue;
+  color: white;
+  border-radius: 30px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  width: 100%;
+  padding: 10px;
+  border: none;
+}
